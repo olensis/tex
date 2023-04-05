@@ -7,9 +7,9 @@ public class User {
     String name;
     int age;
 
-    public User (String name, int a) {
+    public User (String name, int age) {
         this.name = name;
-        this.age = a;
+        this.age = age;
     }
 
     public String Name() {
