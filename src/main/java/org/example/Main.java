@@ -6,7 +6,7 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        TreeSet<User> users = new TreeSet<User>();
+        TreeSet<User> users = new TreeSet<User>(new Sorting());
 
         // выбрала TreeSet, потому что там не может быть дублей и ThreeSet сортирует
 
